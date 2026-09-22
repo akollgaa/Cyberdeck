@@ -1224,6 +1224,138 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:RC0603FR-0710KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0710KL"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C98220_R0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RC0603FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C98220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0603FR-0710KL_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:USB-Friendly_Li-Ion_Battery_Charger_and_Power-Path_Management_IC,_Vout_5_5_V,_4_3_V,_-40_to_85_degC,_16-pin_QFN_(RGT),_Green_(RoHS__no_SbBr)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1843,10 +1975,732 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 58.42 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0148d01b-3faf-479d-8adb-ee88c139216a")
+	)
+	(junction
+		(at 170.18 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bd003c6-4ca8-4059-9324-68c67f07b259")
+	)
+	(junction
+		(at 45.72 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713381ce-9547-46d4-aa5c-df51bfefdbb9")
+	)
+	(junction
+		(at 58.42 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e4bbb2-f39e-439f-b31b-d5374ab1da90")
+	)
+	(junction
+		(at 170.18 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3decd9-87b6-486d-b013-c4c5e9fb1944")
+	)
+	(junction
+		(at 170.18 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd55dc96-081a-4bff-ab01-53fff4269038")
+	)
+	(junction
+		(at 85.09 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdfa92af-4427-42c6-8c7a-d20b9842b647")
+	)
+	(junction
+		(at 115.57 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdb45fec-f392-46f0-ac49-661fcd7abe99")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336f3d1-2be9-4dbc-9f85-98e672d1a273")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 85.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ede8b3-3e45-4cd0-bb9f-e71e9b753790")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 154.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fac7e38-f043-4f0f-9c5b-2bb8365d45de")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1492b9dd-781e-4dcd-bf17-c2afad252504")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20afa277-17c4-4c02-a0cd-02c56ef2481f")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c21587-e15f-421d-9acf-d46a335ca4ad")
+	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 170.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266ad8c5-73c8-4471-aaa6-696622ee9de7")
+	)
+	(wire
+		(pts
+			(xy 46.99 31.75) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285401ec-34f3-4d27-ae81-cca3461236d1")
+	)
+	(wire
+		(pts
+			(xy 119.38 36.83) (xy 115.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f998b-5a84-4a2f-bacb-c6fc355d8d3c")
+	)
+	(wire
+		(pts
+			(xy 184.15 36.83) (xy 184.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311a7f54-e7d5-4945-adbe-f8737daa9918")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332c55cb-9561-4236-a396-97cc1e2286f0")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 128.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3680a1b3-1cdb-4638-9753-58e246ab7638")
+	)
+	(wire
+		(pts
+			(xy 134.62 49.53) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399be9a6-2bd4-44a9-bc2d-5ee99065230c")
+	)
+	(wire
+		(pts
+			(xy 85.09 62.23) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41967453-0de7-4ce6-9143-c6acbc36eddf")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef928cb-7730-4aea-97d1-2be694828d13")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552ecac7-85e3-4a3c-8bcd-ba239fd29355")
+	)
+	(wire
+		(pts
+			(xy 43.18 31.75) (xy 46.99 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6191ad8e-a183-459f-ba27-2a008a80d65d")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ecad17-05fa-473d-ae2b-30a1c88759ba")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6369688f-2211-4c3b-9104-537ccd7af4e8")
+	)
+	(wire
+		(pts
+			(xy 115.57 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aea907-c769-43e0-b4a9-2655580b4c05")
+	)
+	(wire
+		(pts
+			(xy 46.99 29.21) (xy 58.42 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7275fc42-2e86-4380-a69f-0fac4fbbee3c")
+	)
+	(wire
+		(pts
+			(xy 170.18 36.83) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8163b5ff-2643-4abf-9647-dbd29c410a13")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 73.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d10f5b-c5bf-4480-a48e-7eb5dc58cafa")
+	)
+	(wire
+		(pts
+			(xy 165.1 41.91) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863df771-21d3-4501-8b0d-b218e1ecc350")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6753ed-d87f-4968-857b-dd69367dcc47")
+	)
+	(wire
+		(pts
+			(xy 58.42 54.61) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9067be28-963b-46fa-bde7-21ec3cb5e233")
+	)
+	(wire
+		(pts
+			(xy 115.57 29.21) (xy 170.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978e0977-d0b2-48f0-9e45-baaf72c3208b")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e54e09-cb41-4791-a303-c84145a5b715")
+	)
+	(wire
+		(pts
+			(xy 170.18 36.83) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fc3b7c-42e4-4542-9acd-26a4d18cbdfb")
+	)
+	(wire
+		(pts
+			(xy 115.57 29.21) (xy 115.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a3ef6c-7a7e-4a77-8e6d-ffdef9cb75a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 41.91) (xy 154.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ffb93f-f4a8-4405-9624-7def45dea22a")
+	)
+	(wire
+		(pts
+			(xy 85.09 41.91) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f6d58c-0486-4002-8b7f-5098514b4202")
+	)
+	(wire
+		(pts
+			(xy 85.09 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11c0f4d-c3fb-41db-955d-71bf77d89d7e")
+	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 184.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47bd1ce-c5f3-487f-bf71-338ea9653754")
+	)
+	(wire
+		(pts
+			(xy 85.09 77.47) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0388c34-3039-403a-9030-b12c19337008")
+	)
+	(wire
+		(pts
+			(xy 115.57 46.99) (xy 170.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de164669-0b32-4426-8a8c-d750d3a50a5b")
+	)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 170.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f27c09-8238-4ac3-ba89-035761dc2cf3")
+	)
+	(wire
+		(pts
+			(xy 58.42 29.21) (xy 85.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8e33d8-66b0-4f0c-8cc6-c00da868dc0a")
+	)
+	(wire
+		(pts
+			(xy 115.57 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a7489f-4ca0-4255-8a40-edfbc599b6e4")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb08a65c-3117-431f-99d6-2bddf47d9e18")
+	)
+	(wire
+		(pts
+			(xy 163.83 60.96) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffc3907-1832-4a44-8fe5-9075a833f2b7")
+	)
+	(label "switch"
+		(at 121.92 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44d61ffb-5b8c-4dd0-8b65-399649183322")
 	)
 	(symbol
 		(lib_id "lcsc_imported:MY-18650-02")
-		(at 196.85 68.58 0)
+		(at 39.37 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1857,29 +2711,27 @@
 		(fields_autoplaced yes)
 		(uuid "0600abe9-467c-4a97-8b69-6dc0bfaf2364")
 		(property "Reference" "U2"
-			(at 201.93 67.3099 0)
+			(at 39.37 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MY-18650-02"
-			(at 201.93 69.8499 0)
+			(at 39.37 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2979182_BAT-SMD_MY-18650-02"
-			(at 196.85 78.74 0)
+			(at 39.37 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +2742,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203021630_MYOUNG-MY-18650-02_C2979182.pdf"
-			(at 194.564 68.453 0)
+			(at 41.656 45.847 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +2753,7 @@
 			)
 		)
 		(property "Description" "MY-18650-02"
-			(at 196.85 68.58 0)
+			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +2764,7 @@
 			)
 		)
 		(property "LCSC" "C2979182"
-			(at 196.85 68.58 0)
+			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1923,7 +2775,7 @@
 			)
 		)
 		(property "Manufacturer" "MYOUNG(美阳)"
-			(at 196.85 68.58 0)
+			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +2802,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FRC0603F3301TS")
-		(at 167.64 53.34 0)
+		(at 63.5 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1961,27 +2813,29 @@
 		(fields_autoplaced yes)
 		(uuid "11a706aa-f14f-4cc9-b7de-bf4f0dadf9a9")
 		(property "Reference" "R3"
-			(at 167.64 46.99 0)
+			(at 66.04 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "FRC0603F3301TS"
-			(at 167.64 49.53 0)
+			(at 66.04 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2907023_R0603"
-			(at 167.64 63.5 0)
+			(at 53.34 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1992,7 +2846,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F3301TS_C2907023.pdf"
-			(at 165.354 53.213 0)
+			(at 63.627 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,7 +2857,7 @@
 			)
 		)
 		(property "Description" "FRC0603F3301TS"
-			(at 167.64 53.34 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2868,7 @@
 			)
 		)
 		(property "LCSC" "C2907023"
-			(at 167.64 53.34 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2879,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 167.64 53.34 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2051,8 +2905,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c8981c-9412-47b0-863d-3665e59bf714")
+		(property "Reference" "#PWR07"
+			(at 184.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f616f2ff-9005-4b65-aab8-643b73c3f4f9")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181a227c-99c8-437e-959e-af676876a64b")
+		(property "Reference" "#PWR06"
+			(at 163.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63d3d75e-8bc6-413d-a253-e1bc83b06451")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:MY-18650-05-J")
-		(at 167.64 68.58 0)
+		(at 168.91 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2063,7 +3073,7 @@
 		(fields_autoplaced yes)
 		(uuid "1afc91ef-5858-4ad8-b72a-3dbed217e335")
 		(property "Reference" "BAT1"
-			(at 171.45 67.3099 0)
+			(at 172.72 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2074,7 +3084,7 @@
 			)
 		)
 		(property "Value" "MY-18650-05-J"
-			(at 171.45 69.8499 0)
+			(at 172.72 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2085,7 +3095,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C19184124_BAT-TH_MY-18650-05-J"
-			(at 167.64 78.74 0)
+			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311081133_MYOUNG-MY-18650-05-J_C19184124.pdf"
-			(at 165.354 68.453 0)
+			(at 166.624 60.833 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +3117,7 @@
 			)
 		)
 		(property "Description" "MY-18650-05-J"
-			(at 167.64 68.58 0)
+			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,7 +3128,7 @@
 			)
 		)
 		(property "LCSC" "C19184124"
-			(at 167.64 68.58 0)
+			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2129,7 +3139,7 @@
 			)
 		)
 		(property "Manufacturer" "MYOUNG(美阳)"
-			(at 167.64 68.58 0)
+			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +3310,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:CL10B105KB8NQNC")
-		(at 135.89 38.1 0)
+		(at 58.42 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2311,27 +3321,29 @@
 		(fields_autoplaced yes)
 		(uuid "46d3d092-e141-4fa3-ba63-d598fef25f2a")
 		(property "Reference" "C1"
-			(at 135.89 31.75 0)
+			(at 62.23 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "CL10B105KB8NQNC"
-			(at 135.89 34.29 0)
+			(at 62.23 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C5199872_C0603"
-			(at 135.89 48.26 0)
+			(at 68.58 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210171730_Samsung-Electro-Mechanics-CL10B105KB8NQNC_C5199872.pdf"
-			(at 133.604 37.973 0)
+			(at 58.293 36.576 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +3365,7 @@
 			)
 		)
 		(property "Description" "CL10B105KB8NQNC"
-			(at 135.89 38.1 0)
+			(at 58.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +3376,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 135.89 38.1 0)
+			(at 58.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +3387,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 135.89 38.1 0)
+			(at 58.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2401,8 +3413,424 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:RC0603FR-0710KL")
+		(at 73.66 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530662c9-4f57-4458-9213-f1246c7d6307")
+		(property "Reference" "R5"
+			(at 76.2 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 76.2 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C98220_R0603"
+			(at 83.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
+			(at 73.533 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RC0603FR-0710KL"
+			(at 73.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 73.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 73.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "424b6aa8-64c3-41a3-b0d8-46da148ecee8")
+		)
+		(pin "1"
+			(uuid "d2d6cee1-cdef-4efa-997d-9192c381425e")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5327a890-e1d5-4d39-8a62-39d7f4501dd8")
+		(property "Reference" "#PWR010"
+			(at 119.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90355369-36bf-4ae0-b6dd-37b559d20b2d")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da1a188-a9e4-405d-a56d-7b12de08e732")
+		(property "Reference" "#PWR08"
+			(at 134.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dc6303b-1186-4565-bb70-2aaf71d7d04b")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e534b2e-1d4c-4413-8133-3b57eaf66e38")
+		(property "Reference" "#PWR03"
+			(at 115.57 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "374b5769-ab9b-49f2-be2d-0e5dd928e2c8")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6724bf6d-7e21-4adb-aa96-2a3002052d7b")
+		(property "Reference" "#PWR011"
+			(at 73.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d1216b1-34fc-4c16-9d15-f5a0836bf2a6")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:FRC0603F2201TS")
-		(at 135.89 53.34 0)
+		(at 85.09 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2413,27 +3841,29 @@
 		(fields_autoplaced yes)
 		(uuid "7b7137f9-24bb-4b9f-b38d-fade44656ed5")
 		(property "Reference" "R2"
-			(at 135.89 46.99 0)
+			(at 87.63 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "FRC0603F2201TS"
-			(at 135.89 49.53 0)
+			(at 87.63 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2907005_R0603"
-			(at 135.89 63.5 0)
+			(at 74.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F2201TS_C2907005.pdf"
-			(at 133.604 53.213 0)
+			(at 85.217 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +3885,7 @@
 			)
 		)
 		(property "Description" "FRC0603F2201TS"
-			(at 135.89 53.34 0)
+			(at 85.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +3896,7 @@
 			)
 		)
 		(property "LCSC" "C2907005"
-			(at 135.89 53.34 0)
+			(at 85.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2477,7 +3907,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 135.89 53.34 0)
+			(at 85.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,8 +3933,112 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:4_7uF_(475)_±10%_25V")
+		(at 184.15 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff25f6c-57fa-42dc-bdfd-f29028c2f515")
+		(property "Reference" "C3"
+			(at 187.96 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF (475) ±10% 25V"
+			(at 187.96 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C69335_C0603"
+			(at 194.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810261513_Samsung-Electro-Mechanics-CL10A475KA8NQNC_C69335.pdf"
+			(at 184.023 35.306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7uF (475) ±10% 25V"
+			(at 184.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C69335"
+			(at 184.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 184.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c1aa38e-c69f-4c3a-b06e-9ba6d9fa095e")
+		)
+		(pin "2"
+			(uuid "5fbc4732-8968-4b08-a759-6f2dd7883299")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:XL-1608SURC-06")
-		(at 195.58 53.34 0)
+		(at 124.46 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2515,7 +4049,7 @@
 		(fields_autoplaced yes)
 		(uuid "822705fa-5833-4dbf-b193-868029a1d517")
 		(property "Reference" "LED1"
-			(at 194.818 44.45 0)
+			(at 123.698 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2525,7 +4059,7 @@
 			)
 		)
 		(property "Value" "XL-1608SURC-06"
-			(at 194.818 46.99 0)
+			(at 123.698 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C965799_LED0603-RD_RED"
-			(at 195.58 63.5 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +4080,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181505_XINGLIGHT-XL-1608SURC-06_C965799.pdf"
-			(at 193.294 53.213 0)
+			(at 122.174 36.703 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +4091,7 @@
 			)
 		)
 		(property "Description" "XL-1608SURC-06"
-			(at 195.58 53.34 0)
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +4102,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 195.58 53.34 0)
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +4113,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 195.58 53.34 0)
+			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +4140,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FRC0603F5100TS")
-		(at 195.58 38.1 0)
+		(at 160.02 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2617,7 +4151,7 @@
 		(fields_autoplaced yes)
 		(uuid "892fa929-3bb1-4404-91d7-1c64ecaaba19")
 		(property "Reference" "R1"
-			(at 195.58 31.75 0)
+			(at 160.02 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2627,7 +4161,7 @@
 			)
 		)
 		(property "Value" "FRC0603F5100TS"
-			(at 195.58 34.29 0)
+			(at 160.02 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2637,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2907048_R0603"
-			(at 195.58 48.26 0)
+			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2648,7 +4182,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5100TS_C2907048.pdf"
-			(at 193.294 37.973 0)
+			(at 157.734 36.703 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +4193,7 @@
 			)
 		)
 		(property "Description" "FRC0603F5100TS"
-			(at 195.58 38.1 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,7 +4204,7 @@
 			)
 		)
 		(property "LCSC" "C2907048"
-			(at 195.58 38.1 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +4215,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 195.58 38.1 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +4242,8 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:A-SP192DGHC-C01-4T")
-		(at 135.89 68.58 0)
+		(at 143.51 41.91 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2716,10 +4251,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a409477-133f-4189-911a-a276dcc781c9")
 		(property "Reference" "LED2"
-			(at 136.652 59.69 0)
+			(at 142.748 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2729,7 +4263,7 @@
 			)
 		)
 		(property "Value" "A-SP192DGHC-C01-4T"
-			(at 136.652 62.23 0)
+			(at 142.748 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2739,7 +4273,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C19171301_LED0603-FD"
-			(at 135.89 78.74 0)
+			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,7 +4284,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311081131_Amicc-A-SP192DGHC-C01-4T_C19171301.pdf"
-			(at 133.604 68.453 0)
+			(at 145.796 41.783 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +4295,7 @@
 			)
 		)
 		(property "Description" "A-SP192DGHC-C01-4T"
-			(at 135.89 68.58 0)
+			(at 143.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +4306,7 @@
 			)
 		)
 		(property "LCSC" "C19171301"
-			(at 135.89 68.58 0)
+			(at 143.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,7 +4317,7 @@
 			)
 		)
 		(property "Manufacturer" "Amicc(欧密格光电)"
-			(at 135.89 68.58 0)
+			(at 143.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +4344,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:4_7uF_(475)_±10%_25V")
-		(at 167.64 38.1 0)
+		(at 58.42 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2821,27 +4355,29 @@
 		(fields_autoplaced yes)
 		(uuid "911d724f-5d54-4122-8744-35fdaf6ca099")
 		(property "Reference" "C2"
-			(at 167.64 31.75 0)
+			(at 62.23 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7uF (475) ±10% 25V"
-			(at 167.64 34.29 0)
+			(at 62.23 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C69335_C0603"
-			(at 167.64 48.26 0)
+			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,7 +4388,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810261513_Samsung-Electro-Mechanics-CL10A475KA8NQNC_C69335.pdf"
-			(at 165.354 37.973 0)
+			(at 58.293 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,7 +4399,7 @@
 			)
 		)
 		(property "Description" "4.7uF (475) ±10% 25V"
-			(at 167.64 38.1 0)
+			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,7 +4410,7 @@
 			)
 		)
 		(property "LCSC" "C69335"
-			(at 167.64 38.1 0)
+			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +4421,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 167.64 38.1 0)
+			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,6 +4441,576 @@
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3b7247b-12ea-4d6a-88da-8aefde57ec59")
+		(property "Reference" "#PWR05"
+			(at 63.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be768191-c846-4589-ba82-0ff459166943")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:FRC0603F5100TS")
+		(at 160.02 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6453eda-41c5-470b-b618-9e95ef7fae43")
+		(property "Reference" "R4"
+			(at 160.02 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRC0603F5100TS"
+			(at 160.02 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2907048_R0603"
+			(at 160.02 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5100TS_C2907048.pdf"
+			(at 157.734 41.783 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0603F5100TS"
+			(at 160.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907048"
+			(at 160.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 160.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e54805da-d085-46bc-9b2a-367f3338907b")
+		)
+		(pin "1"
+			(uuid "dd636dce-f0c6-4495-89d3-f7fa41dc1bbf")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13e7888-86d3-47c1-99de-2e46feb1c5ba")
+		(property "Reference" "#PWR04"
+			(at 85.09 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa4fd932-ddc0-4197-b307-c7f5a80c85c6")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e908b87d-04a0-4635-aabd-ab419f4c9f18")
+		(property "Reference" "#PWR02"
+			(at 58.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce7958f6-541d-49ed-963a-7e2c57a0321d")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9ecb365-42d5-439b-8bcc-8a47dfc91558")
+		(property "Reference" "#PWR01"
+			(at 58.42 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11a971e0-423a-477b-9fff-d40d8d8cb68c")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec4756ff-bc78-416f-b8bd-0da3b402b9f0")
+		(property "Reference" "#PWR012"
+			(at 43.18 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 43.18 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a6bc41e-9f07-4014-81f0-f1f708092e7e")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f13a96ee-236e-441e-9c78-020c6c8440e5")
+		(property "Reference" "#PWR09"
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1e9bdca-aa2a-4f24-8a8b-21aa794cf159")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
