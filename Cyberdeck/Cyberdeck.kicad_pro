@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,13 +661,21 @@
         "uuid": "8993e48e-9b31-4221-b933-aeda00ea11c8"
       }
     ],
-    "used_designators": "LED1-2,#PWR1-14,C1-6,BAT1,R1-8,U1-2,U4-5",
+    "used_designators": "SW1-10,X1-3,U1-5,R1-22,C1-19,#PWR1-49,BAT1,H1,USB1-2,LED1-2,#FLG1-7",
     "variants": []
   },
   "sheets": [
     [
       "8993e48e-9b31-4221-b933-aeda00ea11c8",
       "Cyberdeck"
+    ],
+    [
+      "9b08b0e1-e523-46cc-a373-03494072a71e",
+      "MicroController"
+    ],
+    [
+      "c2594585-cf2f-4563-9b06-2824c8b17d16",
+      "IOConfig"
     ]
   ],
   "text_variables": {},
