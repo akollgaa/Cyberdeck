@@ -146,8 +146,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.15,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -210,7 +210,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,7 +511,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -698,7 +701,7 @@
         "uuid": "8993e48e-9b31-4221-b933-aeda00ea11c8"
       }
     ],
-    "used_designators": "C1-19,U1-6,SW1-11,L1,USB1-2,X1-3,H1-2,R1-23,#PWR1-53,BAT1,LED1-3,#FLG1-17",
+    "used_designators": "#PWR1-53,C1-19,U1-6,SW1-11,BAT1,USB1-2,L1,X1-3,LED1-3,H1-2,R1-23,#FLG1-17",
     "variants": []
   },
   "sheets": [
