@@ -5688,7 +5688,7 @@
 		)
 		(uuid "297ac2f4-2102-4c64-b56a-936d5f4e25ef")
 	)
-	(hierarchical_label "V_OUT"
+	(hierarchical_label "V_USB"
 		(shape output)
 		(at 135.89 143.51 0)
 		(effects
@@ -5787,7 +5787,7 @@
 		)
 		(uuid "4dfd5637-fa16-48e0-9557-64d8a3f20a60")
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "V_REG"
 		(shape input)
 		(at 195.58 19.05 0)
 		(effects

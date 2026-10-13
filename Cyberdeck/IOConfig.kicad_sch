@@ -2152,7 +2152,7 @@
 		)
 		(uuid "84dc197a-04ca-42b7-a803-af2899bc3329")
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "V_REG"
 		(shape input)
 		(at 205.74 43.18 90)
 		(effects

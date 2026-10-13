@@ -3534,20 +3534,12 @@
 		(uuid "31545867-5ba9-4466-b0bb-f613322cf6bc")
 	)
 	(no_connect
-		(at 240.03 40.64)
-		(uuid "5304b8fc-a22f-472b-adee-b6efeab54771")
-	)
-	(no_connect
 		(at 270.51 138.43)
 		(uuid "6966c80b-d7d1-4d43-9aab-a43a88a23ffd")
 	)
 	(no_connect
 		(at 270.51 95.25)
 		(uuid "7053a5be-1b6a-4adb-81d4-bf2429d02ef6")
-	)
-	(no_connect
-		(at 224.79 40.64)
-		(uuid "71681acb-b77b-452b-b034-2bd5b7695c87")
 	)
 	(no_connect
 		(at 270.51 72.39)
@@ -3824,6 +3816,16 @@
 			(type default)
 		)
 		(uuid "311a7f54-e7d5-4945-adbe-f8737daa9918")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e09aaf-f286-40ac-b6c8-38568d89581c")
 	)
 	(wire
 		(pts
@@ -4104,6 +4106,16 @@
 			(type default)
 		)
 		(uuid "76a4903b-9d68-45f5-81e6-ceedb1f05578")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7736db1e-b5c6-46a7-b47c-29be5d58e483")
 	)
 	(wire
 		(pts
@@ -4517,6 +4529,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 40.64) (xy 243.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb6daf2-ace4-409d-93f7-5cdb5d86ff7d")
+	)
+	(wire
+		(pts
 			(xy 194.31 106.68) (xy 200.66 106.68)
 		)
 		(stroke
@@ -4765,7 +4787,17 @@
 		)
 		(uuid "fe0f34a9-930d-4be3-a9cb-7b4348e266b4")
 	)
-	(label "V_OUT"
+	(wire
+		(pts
+			(xy 220.98 40.64) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff65003a-63e2-4629-8157-93a006ad5a9b")
+	)
+	(label "V_REG"
 		(at 220.98 71.12 0)
 		(effects
 			(font
@@ -4905,7 +4937,7 @@
 		)
 		(uuid "2e8a0acc-0d63-4a82-9668-4d86f92c5d76")
 	)
-	(label "V_IN"
+	(label "V_USB"
 		(at 60.96 29.21 0)
 		(effects
 			(font
@@ -4985,7 +5017,7 @@
 		)
 		(uuid "49d21d5c-7cb2-4f9e-93a3-3ca1bf64be5f")
 	)
-	(label "V_IN"
+	(label "V_USB"
 		(at 220.98 74.93 0)
 		(effects
 			(font
@@ -5075,7 +5107,7 @@
 		)
 		(uuid "80fe5f2b-ff2c-4165-bd54-0ab0a62a2295")
 	)
-	(label "V_OUT"
+	(label "V_REG"
 		(at 35.56 129.54 0)
 		(effects
 			(font
@@ -5115,7 +5147,7 @@
 		)
 		(uuid "89bf32aa-2672-43b0-87b5-7bcfe68c30f0")
 	)
-	(label "V_OUT"
+	(label "V_REG"
 		(at 160.02 86.36 0)
 		(effects
 			(font
@@ -7156,6 +7188,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 220.98 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba3a61e-fb53-47bd-9435-2895b28a7a2b")
+		(property "Reference" "#PWR054"
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58ac1c23-b5a9-4d11-88a8-4eaaf946b037")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8926,6 +9036,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 243.84 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7eca11a-5306-44fc-ae9a-d19d052301bf")
+		(property "Reference" "#PWR04"
+			(at 243.84 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3675074a-499d-4490-9e26-95d2e0288a4a")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 78.74 154.94 0)
 		(unit 1)
@@ -9706,9 +9894,9 @@
 				(justify right)
 			)
 		)
-		(pin "V_IN" input
+		(pin "V_REG" input
 			(at 228.6 71.12 180)
-			(uuid "ed7f6f04-49e3-4445-a05b-b9251b05301d")
+			(uuid "24cce2bd-a3a4-4ee8-9c61-82bd6fc454c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,9 +9904,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_OUT" output
+		(pin "V_USB" output
 			(at 228.6 74.93 180)
-			(uuid "9767d995-675e-45b1-9912-27969b1e510d")
+			(uuid "f83fdc89-f818-4ac8-9755-1cd44c639f48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,9 +10160,9 @@
 				(justify right)
 			)
 		)
-		(pin "V_IN" input
-			(at 166.37 86.36 180)
-			(uuid "d73812ec-0341-42d5-9153-6eeec2d48afd")
+		(pin "Backlight" bidirectional
+			(at 166.37 90.17 180)
+			(uuid "fc072eb3-cb72-43c9-a9a1-0fed06a159a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,9 +10170,9 @@
 				(justify left)
 			)
 		)
-		(pin "Backlight" bidirectional
-			(at 166.37 90.17 180)
-			(uuid "fc072eb3-cb72-43c9-a9a1-0fed06a159a2")
+		(pin "V_REG" input
+			(at 166.37 86.36 180)
+			(uuid "dba2c711-6c0e-4a37-add4-6cb557978c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
