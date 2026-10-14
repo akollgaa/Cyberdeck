@@ -6974,5 +6974,314 @@
       )
     )
   )
-
+  (symbol "ESD321DPYR_C2868952"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "ESD321DPYR_C2868952"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C2868952_X1SON-2_L1_0-W0_6-P0_65-RD-1"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.ti.com/cn/lit/gpn/esd321"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "ESD321DPYR_C2868952"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C2868952"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "TI(德州仪器)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "ESD321DPYR_C2868952_1_1"
+      (rectangle
+        (start -6.350012700025401 2.54000508001016)
+        (end 6.350012700025401 -2.54000508001016)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -5.08001016002032 1.27000254000508)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -8.89 -0.0 0)
+        (length 2.54)
+        (name "I/O"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 8.89 -0.0 180)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
+  (symbol "ESDA7P60-1U1M"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "ESDA7P60-1U1M"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C1975146_D1610-RD"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201300330_STMicroelectronics-ESDA7P60-1U1M_C1975146.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "ESDA7P60-1U1M"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C1975146"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "ST(意法半导体)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "ESDA7P60-1U1M_1_1"
+      (pin unspecified line
+        (at 5.08 -0.0 180)
+        (length 3.81)
+        (name "A"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -5.08 -0.0 0)
+        (length 3.81)
+        (name "C"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -2.286004572009144 2.286004572009144)
+          (xy -1.27000254000508 1.27000254000508)
+          (xy -1.27000254000508 -1.27000254000508)
+          (xy -0.25400050800101603 -2.286004572009144)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27000254000508 -1.524003048006096)
+          (xy -1.27000254000508 -0.0)
+          (xy 1.27000254000508 1.7780035560071121)
+          (xy 1.27000254000508 -1.524003048006096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
+  )
+  (symbol "CL10B104KO8NNNC"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "CL10B104KO8NNNC"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C66501_C0603"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "CL10B104KO8NNNC"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C66501"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "SAMSUNG(三星)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "CL10B104KO8NNNC_1_1"
+      (polyline
+        (pts
+          (xy -0.5080010160020321 2.0320040640081283)
+          (xy -0.5080010160020321 -2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 2.0320040640081283)
+          (xy 0.5080010160020321 -2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line
+        (at -3.81 -0.0 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin input line
+        (at 3.81 -0.0 180)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -1.27000254000508 -0.0)
+          (xy -0.5080010160020321 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 -0.0)
+          (xy 1.27000254000508 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
 )

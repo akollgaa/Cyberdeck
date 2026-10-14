@@ -3569,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 54.61) (xy 123.19 55.88)
+			(xy 121.92 54.61) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 52.07) (xy 123.19 52.07)
+			(xy 115.57 52.07) (xy 125.73 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 54.61) (xy 123.19 54.61)
+			(xy 115.57 54.61) (xy 121.92 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +4837,7 @@
 		)
 		(uuid "1733efa4-6378-4e2e-a4e0-e3ddde6844e5")
 	)
-	(label "V_BAT"
+	(label "V_CHG"
 		(at 229.87 25.4 270)
 		(effects
 			(font
@@ -4986,16 +4986,6 @@
 			(justify left bottom)
 		)
 		(uuid "400e5251-b003-4f65-9a53-90a0e37afc42")
-	)
-	(label "Switch"
-		(at 119.38 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44d61ffb-5b8c-4dd0-8b65-399649183322")
 	)
 	(label "V_CHG"
 		(at 170.18 26.67 0)
@@ -5409,7 +5399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5aaa29-1b36-4a5a-bcbc-613c9e063b0d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 90.17 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5459,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d6727e-9ae5-4f64-90a3-3b6334f6b264")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR03"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6194,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR053")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6323,7 +6313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a5f7747-65f6-43d9-a6d2-2a9794ed4c21")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 57.15 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6383,7 +6373,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6652,7 +6642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "415d7520-aee3-4da3-af6e-62aa2b389aab")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 66.04 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6712,7 +6702,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7120,7 +7110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5327a890-e1d5-4d39-8a62-39d7f4501dd8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7180,7 +7170,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7198,7 +7188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba3a61e-fb53-47bd-9435-2895b28a7a2b")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR05"
 			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7258,7 +7248,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR054")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7276,7 +7266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da1a188-a9e4-405d-a56d-7b12de08e732")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7336,7 +7326,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7433,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e534b2e-1d4c-4413-8133-3b57eaf66e38")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 115.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +7483,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6724bf6d-7e21-4adb-aa96-2a3002052d7b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7571,7 +7561,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8789,7 +8779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b7247b-12ea-4d6a-88da-8aefde57ec59")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 63.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8849,7 +8839,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b13e7888-86d3-47c1-99de-2e46feb1c5ba")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9029,7 +9019,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7eca11a-5306-44fc-ae9a-d19d052301bf")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 243.84 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9107,7 +9097,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9297,6 +9287,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 125.73 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddec4a05-0f6a-4b96-b172-ffa56f87a90d")
+		(property "Reference" "#PWR08"
+			(at 125.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb9138f4-c877-4d3e-aa72-bfe4f49f80c1")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 66.04 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -9307,7 +9375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e908b87d-04a0-4635-aabd-ab419f4c9f18")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9367,7 +9435,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9385,7 +9453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ecb365-42d5-439b-8bcc-8a47dfc91558")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +9513,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 55.88 0)
+		(at 121.92 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9463,8 +9531,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13a96ee-236e-441e-9c78-020c6c8440e5")
-		(property "Reference" "#PWR06"
-			(at 123.19 62.23 0)
+		(property "Reference" "#PWR09"
+			(at 121.92 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 60.96 0)
+			(at 121.92 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9485,7 +9553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9523,7 +9591,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9541,7 +9609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56055b8-3a89-4f22-84ce-cff66058303c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9669,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

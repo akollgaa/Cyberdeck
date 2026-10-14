@@ -2560,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf9076f-335c-4098-a557-ed4b70fbaffe")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 38.1 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2620,7 +2620,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2638,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d056c7-52de-4bcb-af91-3a0ab38c56fe")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR056"
 			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2698,7 +2698,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR050")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2922,7 +2922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bfedcf-6075-44d2-b08d-e7d56902c742")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 38.1 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2982,7 +2982,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3438,7 +3438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68c32b94-77bb-4eea-aeb3-e55081737ff6")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 81.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3498,7 +3498,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3516,7 +3516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6989397a-37de-414b-9597-213b069ffcbf")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 81.28 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3576,7 +3576,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3773,7 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9222ede2-6050-41cc-b14d-c111372cc08b")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 214.63 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3833,7 +3833,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4c56b2-7f1f-4da2-9e66-966d7f213f4e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4399,7 +4399,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4703,7 +4703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fb0353-6636-4d03-9a38-663e72dc3be9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR055"
 			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4763,7 +4763,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/c2594585-cf2f-4563-9b06-2824c8b17d16"
-					(reference "#PWR049")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

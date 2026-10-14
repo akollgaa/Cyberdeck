@@ -5,175 +5,6 @@
 	(uuid "e31ddd60-9f4e-4490-9be3-343bf288d0a6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc_imported:100nF_(104)_±10%_50V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100nF (104) ±10% 50V"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C1591_C0603"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100nF (104) ±10% 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C1591"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "100nF_(104)_±10%_50V_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc_imported:32_768KHz_±20ppm_12_5pF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -692,6 +523,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:CL10B104KO8NNNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10B104KO8NNNC"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C66501_C0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CL10B104KO8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C66501"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL10B104KO8NNNC_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:CL10B105KB8NQNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -844,6 +844,294 @@
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:ESD321DPYR_C2868952"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD321DPYR_C2868952"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C2868952_X1SON-2_L1_0-W0_6-P0_65-RD-1"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/cn/lit/gpn/esd321"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESD321DPYR_C2868952"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2868952"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD321DPYR_C2868952_1_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 6.35 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:ESDA7P60-1U1M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESDA7P60-1U1M"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C1975146_D1610-RD"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201300330_STMicroelectronics-ESDA7P60-1U1M_C1975146.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESDA7P60-1U1M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1975146"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ST(意法半导体)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESDA7P60-1U1M_1_1"
+				(polyline
+					(pts
+						(xy -2.286 2.286) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.254 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.524) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1 1)
@@ -3798,16 +4086,16 @@
 		)
 	)
 	(junction
-		(at 110.49 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "038ed2d6-7bba-424b-b284-62b837bb40fe")
-	)
-	(junction
-		(at 130.81 143.51)
+		(at 149.86 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "063b68a8-af9e-4d5d-815b-77727531b41f")
+	)
+	(junction
+		(at 110.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "149395e4-862b-4c1e-9496-8203d3b9ad55")
 	)
 	(junction
 		(at 72.39 93.98)
@@ -3882,7 +4170,7 @@
 		(uuid "e9038f07-9394-4cbc-8ac4-3c861d98829e")
 	)
 	(junction
-		(at 130.81 158.75)
+		(at 149.86 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e95026ad-3518-4d71-805c-ae48f9dfcc97")
@@ -3957,13 +4245,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 116.84) (xy 195.58 123.19)
+			(xy 105.41 187.96) (xy 105.41 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1628d39f-64b6-4615-a32d-9554aff7c646")
+		(uuid "152176d4-a846-4e15-98b0-59d4ac703d79")
+	)
+	(wire
+		(pts
+			(xy 90.17 35.56) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1624a54f-6bc4-48a5-a85a-03c823f35abc")
 	)
 	(wire
 		(pts
@@ -4007,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 50.8) (xy 102.87 53.34)
+			(xy 102.87 49.53) (xy 102.87 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4385,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 143.51)
+			(xy 149.86 137.16) (xy 149.86 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4134,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "2db71d29-edaa-4382-929c-666c03b668fd")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e77a29d-3c4a-40ae-a61a-5b4c0eddf7b6")
 	)
 	(wire
 		(pts
@@ -4217,7 +4525,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 135.89 143.51)
+			(xy 110.49 93.98) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a61ab63-b9a3-4a7e-9417-5215137985a5")
+	)
+	(wire
+		(pts
+			(xy 149.86 140.97) (xy 154.94 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4247,6 +4565,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 45.72) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409f508b-73a3-4a4f-b7d7-70c8fe633288")
+	)
+	(wire
+		(pts
 			(xy 170.18 48.26) (xy 176.53 48.26)
 		)
 		(stroke
@@ -4254,6 +4582,16 @@
 			(type default)
 		)
 		(uuid "4246897e-9d40-4cd2-ac90-0a4aed6f3792")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c26291-6e98-4222-a86b-a357a6c96efa")
 	)
 	(wire
 		(pts
@@ -4297,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 115.57 58.42)
+			(xy 115.57 54.61) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4655,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 147.32) (xy 88.9 152.4)
+			(xy 88.9 135.89) (xy 88.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4344,6 +4682,16 @@
 			(type default)
 		)
 		(uuid "585cc4b2-2f40-450f-9642-74b8fd079673")
+	)
+	(wire
+		(pts
+			(xy 105.41 166.37) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586ed0f7-710c-4e31-a297-9a2ed88a90d3")
 	)
 	(wire
 		(pts
@@ -4397,16 +4745,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61591dc3-4031-481f-8627-6c607c049c19")
-	)
-	(wire
-		(pts
 			(xy 170.18 111.76) (xy 176.53 111.76)
 		)
 		(stroke
@@ -4417,7 +4755,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 158.75) (xy 130.81 161.29)
+			(xy 149.86 156.21) (xy 149.86 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4517,7 +4855,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 130.81 158.75)
+			(xy 149.86 153.67) (xy 149.86 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4727,6 +5065,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 187.96) (xy 88.9 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952fdee9-4afb-470d-850d-b7d05dfbc41d")
+	)
+	(wire
+		(pts
 			(xy 63.5 35.56) (xy 63.5 48.26)
 		)
 		(stroke
@@ -4767,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 124.46 93.98)
+			(xy 96.52 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4794,6 +5142,26 @@
 			(type default)
 		)
 		(uuid "9d2b8d73-9637-4a0a-8b23-c45106f201d0")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6a269f-d669-497c-8a10-825fd880fe49")
+	)
+	(wire
+		(pts
+			(xy 88.9 166.37) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16928e6-58a4-4a43-8b30-04f3bd2f0983")
 	)
 	(wire
 		(pts
@@ -4847,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 40.64) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1814b45-58a4-4260-b54f-1ae48def04ab")
+	)
+	(wire
+		(pts
 			(xy 41.91 170.18) (xy 48.26 170.18)
 		)
 		(stroke
@@ -4897,7 +5275,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 162.56) (xy 101.6 166.37)
+			(xy 105.41 151.13) (xy 105.41 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +5335,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 158.75) (xy 135.89 158.75)
+			(xy 149.86 156.21) (xy 154.94 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4977,17 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cecb0b6f-983f-47a2-8a31-5eeebafb191a")
-	)
-	(wire
-		(pts
-			(xy 130.81 171.45) (xy 130.81 176.53)
+			(xy 149.86 168.91) (xy 149.86 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5057,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2130e1a-b163-4759-81f8-03c89f408b95")
-	)
-	(wire
-		(pts
 			(xy 66.04 147.32) (xy 69.85 147.32)
 		)
 		(stroke
@@ -5107,7 +5465,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 147.32) (xy 101.6 152.4)
+			(xy 110.49 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebccdd93-a181-4328-864a-9d1258926926")
+	)
+	(wire
+		(pts
+			(xy 105.41 135.89) (xy 105.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5157,7 +5525,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 130.81 146.05)
+			(xy 149.86 140.97) (xy 149.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5177,13 +5545,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 162.56) (xy 88.9 166.37)
+			(xy 88.9 151.13) (xy 88.9 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f60b2336-ba6f-44de-b8bf-50d3aea0dbcf")
+	)
+	(wire
+		(pts
+			(xy 124.46 185.42) (xy 124.46 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77f1cdd-e061-41d5-9f6e-ffea86503615")
+	)
+	(wire
+		(pts
+			(xy 124.46 170.18) (xy 124.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ab53b9-87c1-468d-b706-e0cada75aad7")
 	)
 	(wire
 		(pts
@@ -5276,6 +5664,16 @@
 		(uuid "172aa547-a474-4ff0-b34c-8a3fd08a8cda")
 	)
 	(label "V_BUS"
+		(at 124.46 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2703d32d-7fd6-4ab7-b32b-f43fa13baac0")
+	)
+	(label "V_BUS"
 		(at 41.91 149.86 0)
 		(effects
 			(font
@@ -5336,7 +5734,7 @@
 		(uuid "44a80ce1-ac1e-4c49-b30a-2a10c89ed219")
 	)
 	(label "V_BUS"
-		(at 130.81 139.7 0)
+		(at 149.86 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5356,7 +5754,7 @@
 		(uuid "541e10b5-af0a-4e01-8b09-fe06697fb49a")
 	)
 	(label "PA9"
-		(at 135.89 158.75 0)
+		(at 154.94 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5396,7 +5794,7 @@
 		(uuid "6d060821-cb52-42e6-add1-5d1749484884")
 	)
 	(label "CC2"
-		(at 101.6 147.32 0)
+		(at 105.41 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5476,7 +5874,7 @@
 		(uuid "916334e3-34ae-4294-8a31-e2b215853b08")
 	)
 	(label "CC1"
-		(at 88.9 147.32 0)
+		(at 88.9 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5524,6 +5922,16 @@
 			(justify left bottom)
 		)
 		(uuid "a900bdae-9707-42ca-887e-9c05f7686cbe")
+	)
+	(label "DN"
+		(at 105.41 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abb777c1-4003-4edd-af8a-45fd6e63020d")
 	)
 	(label "Vdd"
 		(at 248.92 54.61 0)
@@ -5625,6 +6033,16 @@
 		)
 		(uuid "e6b0adf0-d4b8-40d2-ba33-65f8158a48b3")
 	)
+	(label "DP"
+		(at 88.9 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb472ce3-c1d5-4794-a60b-6a3fbe676981")
+	)
 	(label "Vdd"
 		(at 226.06 80.01 0)
 		(effects
@@ -5690,7 +6108,7 @@
 	)
 	(hierarchical_label "V_USB"
 		(shape output)
-		(at 135.89 143.51 0)
+		(at 154.94 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5964,7 +6382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02aa7804-cda2-4f9e-888e-3e8415465314")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 195.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6024,7 +6442,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6214,7 +6632,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 130.81 158.75 90)
+		(at 149.86 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6225,7 +6643,7 @@
 		(fields_autoplaced yes)
 		(uuid "26aaa009-6062-413f-9aef-9ce7110204e5")
 		(property "Reference" "#FLG010"
-			(at 128.905 158.75 0)
+			(at 147.955 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6654,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 127 158.7499 90)
+			(at 146.05 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6247,7 +6665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 158.75 0)
+			(at 149.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6258,7 +6676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 158.75 0)
+			(at 149.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6687,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 158.75 0)
+			(at 149.86 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a8cf76-151c-4e5f-adb6-47c3151e0757")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 69.85 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6363,7 +6781,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28c4f81d-bea8-4d86-a053-3f391aa3f48e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 90.17 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6441,7 +6859,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6867,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FRC0603F5101TS")
-		(at 88.9 157.48 270)
+		(at 88.9 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6459,8 +6877,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349c775e-2a20-4403-9865-97bf3e66a253")
-		(property "Reference" "R14"
-			(at 91.44 156.2099 90)
+		(property "Reference" "R13"
+			(at 91.44 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6471,7 +6889,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 91.44 158.7499 90)
+			(at 91.44 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6482,7 +6900,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2907044_R0603"
-			(at 78.74 157.48 0)
+			(at 78.74 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6911,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5101TS_C2907044.pdf"
-			(at 89.027 155.194 0)
+			(at 89.027 143.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6922,7 @@
 			)
 		)
 		(property "Description" "FRC0603F5101TS"
-			(at 88.9 157.48 0)
+			(at 88.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6515,7 +6933,7 @@
 			)
 		)
 		(property "LCSC" "C2907044"
-			(at 88.9 157.48 0)
+			(at 88.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6944,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 88.9 157.48 0)
+			(at 88.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6963,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6563,7 +6981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35761f28-6bb5-4f24-8293-f9425365eadd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6623,7 +7041,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6631,7 +7049,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:RC0603FR-0710KL")
-		(at 130.81 151.13 270)
+		(at 149.86 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6640,8 +7058,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "410ddefc-98e3-42c7-89e4-4a7debea1587")
-		(property "Reference" "R13"
-			(at 128.27 152.4001 90)
+		(property "Reference" "R15"
+			(at 147.32 149.8601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6652,7 +7070,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 128.27 149.8601 90)
+			(at 147.32 147.3201 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6663,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C98220_R0603"
-			(at 120.65 151.13 0)
+			(at 139.7 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +7092,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
-			(at 130.937 148.844 0)
+			(at 149.987 146.304 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +7103,7 @@
 			)
 		)
 		(property "Description" "RC0603FR-0710KL"
-			(at 130.81 151.13 0)
+			(at 149.86 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,7 +7114,7 @@
 			)
 		)
 		(property "LCSC" "C98220"
-			(at 130.81 151.13 0)
+			(at 149.86 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +7125,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 130.81 151.13 0)
+			(at 149.86 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,7 +7144,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6744,7 +7162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c83d94-fc57-4c79-bc5d-ab038c39af3e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 121.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6804,7 +7222,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6822,7 +7240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "483a0941-8b13-4b21-8f4c-3540d6c853dd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6882,7 +7300,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f3a87ae-d105-4dbb-b270-97528c97daf4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 205.74 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7068,111 +7486,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
-		(at 110.49 99.06 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50103867-40d8-4a04-9232-529c5ca7f96f")
-		(property "Reference" "C14"
-			(at 106.68 97.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 106.68 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C1591_C0603"
-			(at 120.65 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-			(at 110.363 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 110.49 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1591"
-			(at 110.49 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 110.49 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f61fdb2b-3e2b-41e9-a594-5f5556403d6b")
-		)
-		(pin "2"
-			(uuid "26ce21c8-ad68-4c96-9ad6-ce0c251b2b99")
-		)
-		(instances
-			(project "Cyberdeck"
-				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "C14")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7190,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50413195-4192-4d0a-9c8b-ea6d989c7494")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 115.57 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7250,7 +7564,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7368,7 +7682,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 176.53 0)
+		(at 149.86 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7378,8 +7692,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567e88a5-510c-44b5-bfb3-ba5c8f9b9299")
-		(property "Reference" "#PWR042"
-			(at 130.81 182.88 0)
+		(property "Reference" "#PWR045"
+			(at 149.86 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 180.975 0)
+			(at 149.86 178.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7400,7 +7714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 176.53 0)
+			(at 149.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 176.53 0)
+			(at 149.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +7736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 176.53 0)
+			(at 149.86 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7752,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599306bd-26c2-4956-b8f0-91928c35a6ae")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 53.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7830,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7740,7 +8054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c195acb-6085-48c7-b432-e8f673fab812")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 248.92 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7800,7 +8114,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7808,7 +8122,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FRC0603F5101TS")
-		(at 101.6 157.48 270)
+		(at 105.41 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7818,8 +8132,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c31b646-7c3e-44c6-9e2e-98ddf00db3a2")
-		(property "Reference" "R15"
-			(at 104.14 156.2099 90)
+		(property "Reference" "R14"
+			(at 107.95 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7830,7 +8144,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 104.14 158.7499 90)
+			(at 107.95 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7841,7 +8155,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2907044_R0603"
-			(at 91.44 157.48 0)
+			(at 95.25 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7852,7 +8166,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5101TS_C2907044.pdf"
-			(at 101.727 155.194 0)
+			(at 105.537 143.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +8177,7 @@
 			)
 		)
 		(property "Description" "FRC0603F5101TS"
-			(at 101.6 157.48 0)
+			(at 105.41 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +8188,7 @@
 			)
 		)
 		(property "LCSC" "C2907044"
-			(at 101.6 157.48 0)
+			(at 105.41 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +8199,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 101.6 157.48 0)
+			(at 105.41 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +8218,111 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "R15")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10B104KO8NNNC")
+		(at 115.57 50.8 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "727e7828-438c-43e9-8931-634405ee1a06")
+		(property "Reference" "C10"
+			(at 111.76 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 111.76 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C66501_C0603"
+			(at 105.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+			(at 115.697 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10B104KO8NNNC"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35f263de-5755-40e1-bc23-29a97cbde524")
+		)
+		(pin "2"
+			(uuid "f31674ce-8017-4a0c-b593-0dde2eecc7f4")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7922,7 +8340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c7502a-cee3-4cc3-aca7-ae864f15e3ed")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +8400,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "805a3160-ce5d-4e79-9ae4-0e4fa2571ce0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8164,7 +8582,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fef5fe-950f-434b-9f03-1f822ee34c33")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 110.49 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8660,189 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR037")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10B104KO8NNNC")
+		(at 102.87 45.72 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8371b0ee-63f3-4b89-aca9-dd1b3442fc00")
+		(property "Reference" "C9"
+			(at 99.06 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.06 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C66501_C0603"
+			(at 92.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+			(at 102.997 48.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10B104KO8NNNC"
+			(at 102.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 102.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 102.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad2b80f0-364e-4ab0-9cb2-77d986e90514")
+		)
+		(pin "2"
+			(uuid "b1cf279b-7d0a-4d96-89f5-f754e55ee923")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ea1640-36d5-4bcb-9209-cabd16540953")
+		(property "Reference" "#PWR049"
+			(at 88.9 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 194.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dbfb144-3a44-492b-b94c-9480e517c0db")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8441,7 +9041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89963037-f2cb-47d9-bcdb-d5863473f4ca")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8501,7 +9101,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8587,7 +9187,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FRC0603F1502TS")
-		(at 130.81 166.37 270)
+		(at 149.86 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8598,7 +9198,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ffe4c9a-2a14-4aa5-881d-58d2656b9421")
 		(property "Reference" "R16"
-			(at 133.35 165.0999 90)
+			(at 152.4 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8609,7 +9209,7 @@
 			)
 		)
 		(property "Value" "15kΩ"
-			(at 133.35 167.6399 90)
+			(at 152.4 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8620,7 +9220,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2906995_R0603"
-			(at 120.65 166.37 0)
+			(at 139.7 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +9231,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F1502TS_C2906995.pdf"
-			(at 130.937 164.084 0)
+			(at 149.987 161.544 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,7 +9242,7 @@
 			)
 		)
 		(property "Description" "FRC0603F1502TS"
-			(at 130.81 166.37 0)
+			(at 149.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8653,7 +9253,7 @@
 			)
 		)
 		(property "LCSC" "C2906995"
-			(at 130.81 166.37 0)
+			(at 149.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +9264,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 130.81 166.37 0)
+			(at 149.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,6 +9284,110 @@
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:ESD321DPYR_C2868952")
+		(at 88.9 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93aa64be-883e-45b0-a694-b59a70c935fa")
+		(property "Reference" "D1"
+			(at 92.71 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD321"
+			(at 92.71 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2868952_X1SON-2_L1_0-W0_6-P0_65-RD-1"
+			(at 78.74 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/esd321"
+			(at 89.027 176.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD321DPYR_C2868952"
+			(at 88.9 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868952"
+			(at 88.9 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 88.9 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66d16628-6005-48bf-9676-cfc12336f5cd")
+		)
+		(pin "2"
+			(uuid "21eaf799-2984-4eff-bd61-cd4e09882827")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b255e99-2280-41d7-b7a9-7c4cc4e3109b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9105,7 +9809,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9331,7 +10035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92159f3-67ca-46aa-b15a-cb9748c1cc41")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 116.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9391,7 +10095,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9399,7 +10103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 166.37 0)
+		(at 88.9 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9409,8 +10113,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef8267f-880d-433b-8f20-e1eba6b7738a")
-		(property "Reference" "#PWR040"
-			(at 88.9 172.72 0)
+		(property "Reference" "#PWR043"
+			(at 88.9 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +10125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 170.815 0)
+			(at 88.9 159.385 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9431,7 +10135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 166.37 0)
+			(at 88.9 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9442,7 +10146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 166.37 0)
+			(at 88.9 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +10157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 166.37 0)
+			(at 88.9 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +10173,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9579,9 +10283,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
-		(at 102.87 45.72 90)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 124.46 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9589,31 +10292,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "baf2de87-a6c4-444b-b35a-0c5ac1dec698")
-		(property "Reference" "C9"
-			(at 99.06 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.06 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C1591_C0603"
-			(at 113.03 45.72 0)
+		(fields_autoplaced yes)
+		(uuid "b755bd04-ecf6-476a-a2cd-7410b51fb984")
+		(property "Reference" "#PWR048"
+			(at 124.46 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,8 +10305,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-			(at 102.743 43.434 0)
+		(property "Value" "GND"
+			(at 124.46 192.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,8 +10326,8 @@
 				)
 			)
 		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 102.87 45.72 0)
+		(property "Datasheet" ""
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,19 +10337,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
-			(at 102.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 102.87 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,15 +10349,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f85b10-8495-4f1d-bc70-d20d29689eee")
-		)
-		(pin "2"
-			(uuid "e0915e69-ba92-4cdd-b32d-3abbf60c02fc")
+			(uuid "becfa010-a8e9-455d-b837-3fe7232a99c1")
 		)
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "C9")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10028,8 +10706,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
-		(at 195.58 111.76 90)
+		(lib_id "lcsc_imported:CL10B104KO8NNNC")
+		(at 90.17 40.64 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10038,31 +10716,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ce8da0cc-4eba-4020-8b14-5bc0932af0e9")
-		(property "Reference" "C17"
-			(at 191.77 110.4899 90)
+		(uuid "c641e063-aa7d-40e3-b44b-f3a1010e3b1b")
+		(property "Reference" "C8"
+			(at 86.36 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 191.77 113.0299 90)
+			(at 86.36 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C1591_C0603"
-			(at 205.74 111.76 0)
+		(property "Footprint" "lcsc_footprints:C66501_C0603"
+			(at 80.01 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,8 +10750,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-			(at 195.453 109.474 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+			(at 90.297 42.926 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10083,8 +10761,8 @@
 				)
 			)
 		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 195.58 111.76 0)
+		(property "Description" "CL10B104KO8NNNC"
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,8 +10772,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
-			(at 195.58 111.76 0)
+		(property "LCSC" "C66501"
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10106,7 +10784,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 195.58 111.76 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10117,15 +10795,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f17195-2d2c-4646-8ac4-cf47a91487bc")
+			(uuid "0e124dde-5919-4f4e-a892-b38f25cc002f")
 		)
 		(pin "2"
-			(uuid "1f7dd204-17f8-4806-ab57-90d9acc4e2ad")
+			(uuid "1d299a81-da01-4604-b3d4-075260b39aab")
 		)
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "C17")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cabed07f-2663-4ad5-bace-51ae6ee99e70")
+		(property "Reference" "#PWR050"
+			(at 105.41 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 194.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2ed8fba-ac6a-4d5c-b468-8fb7d8f2cb7c")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10143,7 +10899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d19412b5-2ec4-478f-8741-ac8ea451d7dc")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10203,7 +10959,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10312,8 +11068,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
-		(at 115.57 50.8 90)
+		(lib_id "lcsc_imported:CL10B104KO8NNNC")
+		(at 195.58 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10322,31 +11078,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d5f7024e-b13e-4d42-a0e1-8382aaeec183")
-		(property "Reference" "C10"
-			(at 111.76 49.5299 90)
+		(uuid "d5113f95-d85e-42c3-80ef-50c7ca24e6ce")
+		(property "Reference" "C17"
+			(at 191.77 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.76 52.0699 90)
+			(at 191.77 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C1591_C0603"
-			(at 125.73 50.8 0)
+		(property "Footprint" "lcsc_footprints:C66501_C0603"
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,8 +11112,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-			(at 115.443 48.514 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+			(at 195.707 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,8 +11123,8 @@
 				)
 			)
 		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 115.57 50.8 0)
+		(property "Description" "CL10B104KO8NNNC"
+			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10378,8 +11134,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
-			(at 115.57 50.8 0)
+		(property "LCSC" "C66501"
+			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10390,7 +11146,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 115.57 50.8 0)
+			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10401,15 +11157,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef3629f2-b3d1-47ba-8473-d163752f9e80")
+			(uuid "61a09b0a-3b8f-4605-8f62-3fd8751a6b58")
 		)
 		(pin "2"
-			(uuid "f8c639c5-a40b-4816-8fbc-84e7405f5581")
+			(uuid "a2e52f0f-128b-41fd-b63c-140832bf4ee9")
 		)
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10427,7 +11183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ed79ea-21d5-4c82-9088-ed24fb932a8f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +11243,110 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR031")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:ESDA7P60-1U1M")
+		(at 124.46 180.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db3d5c39-69c1-4ab9-8371-ded13312ff6f")
+		(property "Reference" "D3"
+			(at 128.27 178.5619 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESDA7P60"
+			(at 128.27 181.1019 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1975146_D1610-RD"
+			(at 114.3 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201300330_STMicroelectronics-ESDA7P60-1U1M_C1975146.pdf"
+			(at 124.587 178.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESDA7P60-1U1M"
+			(at 124.46 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1975146"
+			(at 124.46 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ST(意法半导体)"
+			(at 124.46 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b336dc03-a94b-4443-82a2-43e77a754de6")
+		)
+		(pin "1"
+			(uuid "ea4bba75-3027-41cd-94c2-52aa4a4c8dea")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10505,7 +11364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd59ff12-6b36-47c4-94b5-43ddc03e8e13")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 254 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10565,7 +11424,111 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR036")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10B104KO8NNNC")
+		(at 110.49 100.33 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfbe4a66-cefd-4d34-829e-d2d1173da37d")
+		(property "Reference" "C14"
+			(at 106.68 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C66501_C0603"
+			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Samsung-Electro-Mechanics-CL10B104KO8NNNC_C66501.pdf"
+			(at 110.617 102.616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10B104KO8NNNC"
+			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02a2d8a4-0935-438c-b850-494c379884e9")
+		)
+		(pin "2"
+			(uuid "9a23d632-e364-4764-9eb8-332139c7e334")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10583,7 +11546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0acb2b4-9ada-411d-b556-24dbd67a35a2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 72.39 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +11606,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10765,7 +11728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e92c1d38-6ac5-4f93-a69a-64db08e1fdfd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 63.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10825,7 +11788,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10843,7 +11806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f35842b4-dcad-4ddb-8672-503656d246a4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10903,7 +11866,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11014,6 +11977,110 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:ESD321DPYR_C2868952")
+		(at 105.41 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f466a544-3cd0-43e2-838c-7cdeb47bf909")
+		(property "Reference" "D2"
+			(at 109.22 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD321"
+			(at 109.22 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2868952_X1SON-2_L1_0-W0_6-P0_65-RD-1"
+			(at 95.25 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/esd321"
+			(at 105.537 176.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD321DPYR_C2868952"
+			(at 105.41 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2868952"
+			(at 105.41 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 105.41 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14191f14-e917-4685-bef9-09986fcdf431")
+		)
+		(pin "2"
+			(uuid "98d851f3-dad8-4ee1-ae21-a804b28dc3bb")
+		)
+		(instances
+			(project "Cyberdeck"
+				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 149.86 0)
 		(unit 1)
@@ -11025,7 +12092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b588ec-a82f-4558-b268-e84d62bd9359")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 69.85 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11085,7 +12152,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11103,7 +12170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda04946-94f3-498a-84b7-e676ff497447")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 195.58 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11163,7 +12230,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11275,7 +12342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 166.37 0)
+		(at 105.41 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11285,8 +12352,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feff954e-9541-4142-9e59-001ba18eb5c3")
-		(property "Reference" "#PWR041"
-			(at 101.6 172.72 0)
+		(property "Reference" "#PWR044"
+			(at 105.41 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,7 +12364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 170.815 0)
+			(at 105.41 159.385 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11307,7 +12374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 166.37 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +12385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 166.37 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,7 +12396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 166.37 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,111 +12412,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:100nF_(104)_±10%_50V")
-		(at 90.17 40.64 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff003952-a0b4-4dc2-b6dc-5d0f46373285")
-		(property "Reference" "C8"
-			(at 86.36 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 86.36 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C1591_C0603"
-			(at 100.33 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
-			(at 90.043 38.354 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 90.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1591"
-			(at 90.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 90.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "074c2c24-7d61-4adc-8858-e725b3c969c8")
-		)
-		(pin "2"
-			(uuid "3bdbfc15-cba6-4456-bffc-dc349b3b0784")
-		)
-		(instances
-			(project "Cyberdeck"
-				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "C8")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11467,7 +12430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff862f93-9e39-473a-9e5f-6d707228dfe5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 102.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11527,7 +12490,7 @@
 		(instances
 			(project "Cyberdeck"
 				(path "/8993e48e-9b31-4221-b933-aeda00ea11c8/9b08b0e1-e523-46cc-a373-03494072a71e"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
