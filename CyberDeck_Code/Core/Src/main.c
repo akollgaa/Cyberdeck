@@ -34,6 +34,9 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
+#define BUTTON_DEBOUNCE_MS 20U
+#define BUTTON_COUNT       7U
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -44,6 +47,19 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+
+static const uint16_t button_pins[BUTTON_COUNT] = {
+  GPIO_PIN_2,
+  GPIO_PIN_3,
+  GPIO_PIN_4,
+  GPIO_PIN_5,
+  GPIO_PIN_6,
+  GPIO_PIN_7,
+  GPIO_PIN_8
+};
+static GPIO_PinState button_stable_states[BUTTON_COUNT];
+static GPIO_PinState button_last_samples[BUTTON_COUNT];
+static uint32_t button_last_change_ticks[BUTTON_COUNT];
 
 /* USER CODE END PV */
 
@@ -90,6 +106,16 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
+  uint32_t initial_tick = HAL_GetTick();
+
+  for (uint32_t button_index = 0U; button_index < BUTTON_COUNT; button_index++)
+  {
+    button_stable_states[button_index] =
+        HAL_GPIO_ReadPin(GPIOA, button_pins[button_index]);
+    button_last_samples[button_index] = button_stable_states[button_index];
+    button_last_change_ticks[button_index] = initial_tick;
+  }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,6 +125,30 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    uint32_t current_tick = HAL_GetTick();
+
+    for (uint32_t button_index = 0U; button_index < BUTTON_COUNT; button_index++)
+    {
+      GPIO_PinState button_sample =
+          HAL_GPIO_ReadPin(GPIOA, button_pins[button_index]);
+
+      if (button_sample != button_last_samples[button_index])
+      {
+        button_last_samples[button_index] = button_sample;
+        button_last_change_ticks[button_index] = current_tick;
+      }
+      else if ((button_sample != button_stable_states[button_index]) &&
+               ((current_tick - button_last_change_ticks[button_index]) >=
+                BUTTON_DEBOUNCE_MS))
+      {
+        button_stable_states[button_index] = button_sample;
+
+        if (button_stable_states[button_index] == GPIO_PIN_SET)
+        {
+          HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
+        }
+      }
+    }
   }
   /* USER CODE END 3 */
 }
