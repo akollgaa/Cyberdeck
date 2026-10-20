@@ -16,8 +16,8 @@
 #define ILI9341_DEBUG 0U
 #endif
 
-#define ILI9341_DISPLAY_WIDTH   320U
-#define ILI9341_DISPLAY_HEIGHT  240U
+#define ILI9341_DISPLAY_WIDTH   240U
+#define ILI9341_DISPLAY_HEIGHT  320U
 
 /* ILI9341 command codes. */
 #define ILI9341_CMD_SWRESET  0x01U /* Software Reset. */
@@ -32,6 +32,11 @@
 #define ILI9341_CMD_CASET    0x2AU /* Column Address Set. */
 #define ILI9341_CMD_PASET    0x2BU /* Page Address Set. */
 #define ILI9341_CMD_RAMWR    0x2CU /* Memory Write. */
+#define ILI9341_CMD_ETMOD    0xB7U /* Entry Mode Set. */
+#define ILI9341_CMD_PWCTRL1  0xC0U /* Power Control 1. */
+#define ILI9341_CMD_PWCTRL2  0xC1U /* Power Control 2. */
+#define ILI9341_CMD_VMCTRL1  0xC5U /* VCOM Control 1. */
+#define ILI9341_CMD_VMCTRL2  0xC7U /* VCOM Control 2. */
 #define ILI9341_CMD_MADCTL   0x36U /* Memory Access Control. */
 #define ILI9341_CMD_COLMOD   0x3AU /* Pixel Format Set. */
 #define ILI9341_CMD_WRDISBV  0x51U /* Write Display Brightness. */
@@ -122,6 +127,40 @@ void ILI9341_DrawLine(const ILI9341_HandleTypeDef *display,
                       uint16_t color);
 
 /**
+ * @brief Draws a horizontal RGB565 line using a direct write loop.
+ * @param display Pointer to the display hardware configuration.
+ * @param x0 Horizontal coordinate of the line start; must be <= x1.
+ * @param y0 Vertical coordinate of the line; must equal y1.
+ * @param x1 Horizontal coordinate of the line end.
+ * @param y1 Vertical coordinate of the line; must equal y0.
+ * @param color 16-bit RGB565 line color.
+ * @retval None
+ */
+void ILI9341_DrawHorizontalLine(const ILI9341_HandleTypeDef *display,
+                                uint16_t x0,
+                                uint16_t y0,
+                                uint16_t x1,
+                                uint16_t y1,
+                                uint16_t color);
+
+/**
+ * @brief Draws a vertical RGB565 line using a direct write loop.
+ * @param display Pointer to the display hardware configuration.
+ * @param x0 Horizontal coordinate of the line; must equal x1.
+ * @param y0 Vertical coordinate of the line start; must be <= y1.
+ * @param x1 Horizontal coordinate of the line; must equal x0.
+ * @param y1 Vertical coordinate of the line end.
+ * @param color 16-bit RGB565 line color.
+ * @retval None
+ */
+void ILI9341_DrawVerticalLine(const ILI9341_HandleTypeDef *display,
+                              uint16_t x0,
+                              uint16_t y0,
+                              uint16_t x1,
+                              uint16_t y1,
+                              uint16_t color);
+
+/**
  * @brief Draws a filled RGB565 rectangle.
  * @param display Pointer to the display hardware configuration.
  * @param x Horizontal coordinate of the rectangle's top-left corner.
@@ -172,10 +211,10 @@ void ILI9341_SoftwareReset(const ILI9341_HandleTypeDef *display);
 uint8_t ILI9341_DebugCheckDisplay(const ILI9341_HandleTypeDef *display);
 
 /**
- * @brief Validates a pixel coordinate against the 320x240 display bounds.
+ * @brief Validates a pixel coordinate against the 240x320 display bounds.
  * @param display Pointer to the display hardware configuration.
- * @param x Horizontal coordinate; valid range is 0 through 319.
- * @param y Vertical coordinate; valid range is 0 through 239.
+ * @param x Horizontal coordinate; valid range is 0 through 239.
+ * @param y Vertical coordinate; valid range is 0 through 319.
  * @retval Nonzero if valid; zero otherwise.
  */
 uint8_t ILI9341_DebugCheckPoint(const ILI9341_HandleTypeDef *display,
