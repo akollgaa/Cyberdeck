@@ -24,6 +24,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "ili9341.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -36,6 +38,13 @@
 
 #define BUTTON_DEBOUNCE_MS 20U
 #define BUTTON_COUNT       7U
+
+#define RECTANGLE_X        40U
+#define RECTANGLE_Y        40U
+#define RECTANGLE_WIDTH    160U
+#define RECTANGLE_HEIGHT   80U
+#define RECTANGLE_ON_COLOR 0xF800U /* RGB565 red. */
+#define RECTANGLE_OFF_COLOR 0x0000U /* RGB565 black. */
 
 /* USER CODE END PD */
 
@@ -60,6 +69,34 @@ static const uint16_t button_pins[BUTTON_COUNT] = {
 static GPIO_PinState button_stable_states[BUTTON_COUNT];
 static GPIO_PinState button_last_samples[BUTTON_COUNT];
 static uint32_t button_last_change_ticks[BUTTON_COUNT];
+static uint8_t rectangle_on;
+
+static const ILI9341_HandleTypeDef ili9341_display = {
+  .data_port = {
+    GPIOB, GPIOB, GPIOB, GPIOB,
+    GPIOB, GPIOB, GPIOB, GPIOB
+  },
+  .data_pin = {
+    GPIO_PIN_7,  /* D0 */
+    GPIO_PIN_8,  /* D1 */
+    GPIO_PIN_9,  /* D2 */
+    GPIO_PIN_10, /* D3 */
+    GPIO_PIN_12, /* D4 */
+    GPIO_PIN_13, /* D5 */
+    GPIO_PIN_14, /* D6 */
+    GPIO_PIN_15  /* D7 */
+  },
+  .wr_port = GPIOB,
+  .wr_pin = GPIO_PIN_4,
+  .rd_port = GPIOB,
+  .rd_pin = GPIO_PIN_5,
+  .dc_port = GPIOB,
+  .dc_pin = GPIO_PIN_3,
+  .cs_port = GPIOB,
+  .cs_pin = GPIO_PIN_1,
+  .reset_port = GPIOB,
+  .reset_pin = GPIO_PIN_6
+};
 
 /* USER CODE END PV */
 
@@ -106,6 +143,12 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
+  /* Keep the read strobe inactive and deselect the display while idle. */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1 | GPIO_PIN_4 | GPIO_PIN_5,
+                    GPIO_PIN_SET);
+  ILI9341_Init(&ili9341_display);
+  ILI9341_FillScreen(&ili9341_display, RECTANGLE_OFF_COLOR);
+
   uint32_t initial_tick = HAL_GetTick();
 
   for (uint32_t button_index = 0U; button_index < BUTTON_COUNT; button_index++)
@@ -146,6 +189,15 @@ int main(void)
         if (button_stable_states[button_index] == GPIO_PIN_SET)
         {
           HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
+
+          rectangle_on = (uint8_t)!rectangle_on;
+          ILI9341_FillRect(&ili9341_display,
+                           RECTANGLE_X,
+                           RECTANGLE_Y,
+                           RECTANGLE_WIDTH,
+                           RECTANGLE_HEIGHT,
+                           rectangle_on ? RECTANGLE_ON_COLOR
+                                        : RECTANGLE_OFF_COLOR);
         }
       }
     }

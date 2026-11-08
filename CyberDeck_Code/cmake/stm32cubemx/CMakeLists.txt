@@ -76,7 +76,8 @@ set(MX_LINK_DIRS
 set(MX_LINK_LIBS 
     STM32_Drivers
     ${TOOLCHAIN_LINK_LIBRARIES}
-    USB_Device_Library	
+    USB_Device_Library
+	
 )
 # Interface library for includes and symbols
 add_library(stm32cubemx INTERFACE)
@@ -110,3 +111,28 @@ set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES ${
 if((CMAKE_C_STANDARD EQUAL 90) OR (CMAKE_C_STANDARD EQUAL 99))
     message(ERROR "Generated code requires C11 or higher")
 endif()
+
+# Convert the ELF output to Intel HEX and raw binary formats.
+#
+# This file is processed with add_subdirectory(), but the executable is created
+# by the top-level CMakeLists.txt. CMake therefore does not allow the
+# add_custom_command(TARGET ... POST_BUILD) form here. An output-based custom
+# command can depend on a target created in another directory and also avoids
+# regenerating the files when the ELF has not changed.
+set(MX_HEX_FILE "${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}.hex")
+set(MX_BIN_FILE "${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}.bin")
+
+add_custom_command(
+    OUTPUT "${MX_HEX_FILE}" "${MX_BIN_FILE}"
+    COMMAND "${CMAKE_OBJCOPY}" -O ihex
+            "$<TARGET_FILE:${CMAKE_PROJECT_NAME}>" "${MX_HEX_FILE}"
+    COMMAND "${CMAKE_OBJCOPY}" -O binary
+            "$<TARGET_FILE:${CMAKE_PROJECT_NAME}>" "${MX_BIN_FILE}"
+    DEPENDS ${CMAKE_PROJECT_NAME}
+    COMMENT "Generating ${CMAKE_PROJECT_NAME}.hex and ${CMAKE_PROJECT_NAME}.bin"
+    VERBATIM
+)
+
+add_custom_target(${CMAKE_PROJECT_NAME}_firmware ALL
+    DEPENDS "${MX_HEX_FILE}" "${MX_BIN_FILE}"
+)

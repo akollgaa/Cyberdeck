@@ -47,6 +47,10 @@ void ILI9341_Init(const ILI9341_HandleTypeDef *display)
   ILI9341_WriteCommand(display, ILI9341_CMD_COLMOD);
   ILI9341_WriteData(display, ILI9341_PIXEL_FORMAT_RGB565);
 
+  /* Portrait orientation, normal column mirroring, and BGR panel order. */
+  ILI9341_WriteCommand(display, ILI9341_CMD_MADCTL);
+  ILI9341_WriteData(display, ILI9341_MADCTL_MX | ILI9341_MADCTL_BGR);
+
   ILI9341_SetMode(display, ILI9341_MODE_NORMAL, 0U);
   ILI9341_SetMode(display, ILI9341_MODE_DISPLAY_ON, 0U);
 }
