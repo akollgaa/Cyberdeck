@@ -3,6 +3,26 @@
  */
 #include "ili9341.h"
 
+static void ILI9341_WriteSolidColor(const ILI9341_HandleTypeDef *display,
+                                    uint16_t color,
+                                    uint32_t pixel_count)
+{
+  const uint32_t high_byte = ILI9341_Encode8Bit(
+      display, (uint8_t)(color >> 8U));
+  const uint32_t low_byte = ILI9341_Encode8Bit(display, (uint8_t)color);
+
+  ILI9341_WritePin(display->dc_port, display->dc_pin, 1U);
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 0U);
+
+  for (uint32_t pixel = 0U; pixel < pixel_count; pixel++)
+  {
+    ILI9341_WriteEncoded8Bit(display, high_byte);
+    ILI9341_WriteEncoded8Bit(display, low_byte);
+  }
+
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 1U);
+}
+
 void ILI9341_Init(const ILI9341_HandleTypeDef *display)
 {
   if (!ILI9341_DEBUG_CHECK_DISPLAY(display))
@@ -106,10 +126,7 @@ void ILI9341_DrawPixel(const ILI9341_HandleTypeDef *display,
   ILI9341_SetPageAddress(display, y, y);
   ILI9341_WriteCommand(display, ILI9341_CMD_RAMWR);
 
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
-  ILI9341_Write8Bit(display, (uint8_t)(color >> 8), 1U);
-  ILI9341_Write8Bit(display, (uint8_t)color, 1U);
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WriteSolidColor(display, color, 1U);
 }
 
 void ILI9341_DrawHorizontalLine(const ILI9341_HandleTypeDef *display,
@@ -132,13 +149,7 @@ void ILI9341_DrawHorizontalLine(const ILI9341_HandleTypeDef *display,
   ILI9341_WriteCommand(display, ILI9341_CMD_RAMWR);
 
   pixel_count = (uint32_t)x1 - (uint32_t)x0 + 1U;
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
-  for (uint32_t pixel = 0U; pixel < pixel_count; pixel++)
-  {
-    ILI9341_Write8Bit(display, (uint8_t)(color >> 8), 1U);
-    ILI9341_Write8Bit(display, (uint8_t)color, 1U);
-  }
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WriteSolidColor(display, color, pixel_count);
 }
 
 void ILI9341_DrawVerticalLine(const ILI9341_HandleTypeDef *display,
@@ -161,13 +172,7 @@ void ILI9341_DrawVerticalLine(const ILI9341_HandleTypeDef *display,
   ILI9341_WriteCommand(display, ILI9341_CMD_RAMWR);
 
   pixel_count = (uint32_t)y1 - (uint32_t)y0 + 1U;
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
-  for (uint32_t pixel = 0U; pixel < pixel_count; pixel++)
-  {
-    ILI9341_Write8Bit(display, (uint8_t)(color >> 8), 1U);
-    ILI9341_Write8Bit(display, (uint8_t)color, 1U);
-  }
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WriteSolidColor(display, color, pixel_count);
 }
 
 void ILI9341_DrawLine(const ILI9341_HandleTypeDef *display,
@@ -258,13 +263,7 @@ void ILI9341_FillRect(const ILI9341_HandleTypeDef *display,
   ILI9341_WriteCommand(display, ILI9341_CMD_RAMWR);
 
   pixel_count = (uint32_t)width * (uint32_t)height;
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
-  for (uint32_t pixel = 0U; pixel < pixel_count; pixel++)
-  {
-    ILI9341_Write8Bit(display, (uint8_t)(color >> 8), 1U);
-    ILI9341_Write8Bit(display, (uint8_t)color, 1U);
-  }
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WriteSolidColor(display, color, pixel_count);
 }
 
 void ILI9341_FillScreen(const ILI9341_HandleTypeDef *display, uint16_t color)

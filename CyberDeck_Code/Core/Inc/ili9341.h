@@ -2,8 +2,8 @@
  * ILI9341 8-bit MCU parallel interface.
  *
  * The GPIO pins are supplied by the application because the display wiring is
- * board-specific.  The data bus is assumed to be D0..D7, with D0 as the
- * least-significant bit of each byte.
+ * board-specific.  All eight data pins must share one GPIO port.  The data bus
+ * is assumed to be D0..D7, with D0 as the least-significant bit of each byte.
  */
 #ifndef ILI9341_H
 #define ILI9341_H
@@ -60,7 +60,7 @@
 
 typedef struct
 {
-  GPIO_TypeDef *data_port[8];
+  GPIO_TypeDef *data_port;
   uint16_t data_pin[8];
 
   GPIO_TypeDef *wr_port;
@@ -278,37 +278,87 @@ uint8_t ILI9341_DebugCheckRect(const ILI9341_HandleTypeDef *display,
 void ILI9341_SetBacklight(const ILI9341_HandleTypeDef *display,
                           uint8_t brightness);
 
-static inline void ILI9341_Write8Bit(const ILI9341_HandleTypeDef *display,
-                                     uint8_t value,
-                                     uint8_t data_mode)
+/**
+ * @brief Sets or resets one GPIO pin through the atomic BSRR register.
+ */
+__STATIC_FORCEINLINE void ILI9341_WritePin(GPIO_TypeDef *port,
+                                            uint16_t pin,
+                                            uint8_t high)
 {
-  HAL_GPIO_WritePin(display->dc_port, display->dc_pin,
-                    data_mode ? GPIO_PIN_SET : GPIO_PIN_RESET);
+  port->BSRR = high ? (uint32_t)pin : ((uint32_t)pin << 16U);
+}
+
+/**
+ * @brief Encodes one byte as a single atomic data-bus BSRR write.
+ */
+__STATIC_FORCEINLINE uint32_t ILI9341_Encode8Bit(
+    const ILI9341_HandleTypeDef *display,
+    uint8_t value)
+{
+  uint32_t data_mask = 0U;
+  uint32_t set_mask = 0U;
 
   for (uint32_t bit = 0U; bit < 8U; bit++)
   {
-    HAL_GPIO_WritePin(display->data_port[bit], display->data_pin[bit],
-                      (value & (1U << bit)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+    uint32_t pin = display->data_pin[bit];
+
+    data_mask |= pin;
+    if ((value & (1U << bit)) != 0U)
+    {
+      set_mask |= pin;
+    }
   }
 
-  HAL_GPIO_WritePin(display->wr_port, display->wr_pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(display->wr_port, display->wr_pin, GPIO_PIN_SET);
+  return set_mask | ((data_mask & ~set_mask) << 16U);
 }
 
-static inline void ILI9341_WriteCommand(const ILI9341_HandleTypeDef *display,
-                                        uint8_t command)
+/**
+ * @brief Writes a pre-encoded byte and pulses the active-low WR signal.
+ *
+ * The NOPs preserve data setup, WR low, and WR high time at the configured
+ * 96 MHz system clock while remaining much faster than HAL GPIO calls.
+ */
+__STATIC_FORCEINLINE void ILI9341_WriteEncoded8Bit(
+    const ILI9341_HandleTypeDef *display,
+    uint32_t encoded_value)
 {
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
+  display->data_port->BSRR = encoded_value;
+  __NOP();
+
+  display->wr_port->BSRR = (uint32_t)display->wr_pin << 16U;
+  __NOP();
+  __NOP();
+
+  display->wr_port->BSRR = display->wr_pin;
+  __NOP();
+  __NOP();
+}
+
+__STATIC_FORCEINLINE void ILI9341_Write8Bit(
+    const ILI9341_HandleTypeDef *display,
+    uint8_t value,
+    uint8_t data_mode)
+{
+  ILI9341_WritePin(display->dc_port, display->dc_pin, data_mode);
+  ILI9341_WriteEncoded8Bit(display, ILI9341_Encode8Bit(display, value));
+}
+
+__STATIC_FORCEINLINE void ILI9341_WriteCommand(
+    const ILI9341_HandleTypeDef *display,
+    uint8_t command)
+{
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 0U);
   ILI9341_Write8Bit(display, command, 0U);
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 1U);
 }
 
-static inline void ILI9341_WriteData(const ILI9341_HandleTypeDef *display,
-                                     uint8_t value)
+__STATIC_FORCEINLINE void ILI9341_WriteData(
+    const ILI9341_HandleTypeDef *display,
+    uint8_t value)
 {
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_RESET);
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 0U);
   ILI9341_Write8Bit(display, value, 1U);
-  HAL_GPIO_WritePin(display->cs_port, display->cs_pin, GPIO_PIN_SET);
+  ILI9341_WritePin(display->cs_port, display->cs_pin, 1U);
 }
 
 static inline void ILI9341_SetColumnAddress(const ILI9341_HandleTypeDef *display,

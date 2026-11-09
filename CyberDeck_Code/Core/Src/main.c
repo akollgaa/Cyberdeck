@@ -72,10 +72,7 @@ static uint32_t button_last_change_ticks[BUTTON_COUNT];
 static uint8_t rectangle_on;
 
 static const ILI9341_HandleTypeDef ili9341_display = {
-  .data_port = {
-    GPIOB, GPIOB, GPIOB, GPIOB,
-    GPIOB, GPIOB, GPIOB, GPIOB
-  },
+  .data_port = GPIOB,
   .data_pin = {
     GPIO_PIN_7,  /* D0 */
     GPIO_PIN_8,  /* D1 */
